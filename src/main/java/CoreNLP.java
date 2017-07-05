@@ -30,11 +30,7 @@ public class CoreNLP {
     // read some text from the file..
 //    File inputFile = new File("/Users/yiwu/Desktop/input.txt");
 //    String text = Files.toString(new File("/Users/yiwu/Desktop/input.txt"), Charset.forName("UTF-8")); 
-//    String text = new String(Files.readAllBytes(Paths.get("/Users/yiwu/Desktop/input.txt")));
-    String text = "Pierre Vinken, 61 years old, will join the board as a non-executive director "
-            + "Nov. 29. Mr. Vinken is chairman of Elsevier N.V., the Dutch publishing group. "
-            + "Rudolph Agnew, 55 years old and former chairman of Consolidated Gold Fields PLC, "
-            + "was named a director of this British industrial conglomerate.";
+    String text = new String(Files.readAllBytes(Paths.get("/Users/yiwu/Desktop/input.txt")));
     
     // create an empty Annotation just with the given text
     Annotation document = new Annotation(text);
